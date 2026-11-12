@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SiteCouncil</string>
+
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_back">Zurück</string>
+    <string name="action_share">Bericht teilen</string>
+    <string name="action_delete">Löschen</string>
+
+    <string name="start_title">Website analysieren</string>
+    <string name="start_url_label">URL der Website</string>
+    <string name="start_url_placeholder">https://www.beispiel.de</string>
+    <string name="start_audience_label">Zielgruppe (optional)</string>
+    <string name="start_goal_label">Seitenziel (optional)</string>
+    <string name="start_goal_placeholder">z. B. Terminbuchung, Newsletter-Anmeldung</string>
+    <string name="start_device_mobile">Mobil</string>
+    <string name="start_device_desktop">Desktop</string>
+    <string name="start_analyze">Analysieren</string>
+    <string name="start_estimate">Geschätzt: ca. %1$s Tokens, ca. %2$s US-Dollar (%3$d Aufrufe)</string>
+    <string name="start_no_key">Es ist noch kein API-Key hinterlegt.</string>
+    <string name="start_open_settings">Einstellungen öffnen</string>
+    <string name="start_history">Letzte Analysen</string>
+    <string name="start_history_empty">Noch keine Analysen vorhanden.</string>
+    <string name="start_history_score">Score %1$d</string>
+
+    <string name="error_no_key">Kein API-Key hinterlegt. Bitte in den Einstellungen eintragen.</string>
+    <string name="error_invalid_url">Die URL ist ungültig. Erlaubt sind nur öffentlich erreichbare http- und https-Adressen.</string>
+    <string name="error_unreachable">Die Seite ist nicht erreichbar: %1$s</string>
+    <string name="error_unauthorized">Der API-Key wurde abgelehnt. Bitte in den Einstellungen prüfen.</string>
+    <string name="error_rate_limit">Das Rate Limit der API ist erreicht. Bitte kurz warten und erneut starten.</string>
+    <string name="error_api">Die API meldet einen Fehler: %1$s</string>
+    <string name="error_network">Netzwerkfehler: %1$s</string>
+    <string name="error_invalid_json">Ein Experte hat kein gültiges JSON geliefert, auch nicht nach der Reparatur.</string>
+    <string name="error_timeout">Die Analyse hat das Zeitlimit überschritten und wurde beendet.</string>
+    <string name="error_all_experts_failed">Kein Experte hat ein verwertbares Ergebnis geliefert. Letzter Fehler: %1$s</string>
+    <string name="error_unknown">Unerwarteter Fehler: %1$s</string>
+
+    <string name="progress_title">Analyse läuft</string>
+    <string name="progress_cancel">Abbrechen</string>
+    <string name="progress_failed_title">Analyse fehlgeschlagen</string>
+    <string name="progress_idle">Es läuft keine Analyse.</string>
+    <string name="step_load">Seite laden und Screenshot erstellen</string>
+    <string name="step_tech">Technik-Prüfungen</string>
+    <string name="step_expert">Experte: %1$s</string>
+    <string name="step_personas_gen">Personas erzeugen</string>
+    <string name="step_personas_run">Persona-Testläufe</string>
+    <string name="step_moderator">Moderator: Widersprüche und Prioritäten</string>
+    <string name="step_heatmap">Heatmap schätzen</string>
+    <string name="step_save">Ergebnis speichern</string>
+    <string name="step_status_pending">Wartet</string>
+    <string name="step_status_running">Läuft</string>
+    <string name="step_status_done">Fertig</string>
+    <string name="step_status_failed">Fehlgeschlagen</string>
+
+    <string name="expert_layout">Layout und UX</string>
+    <string name="expert_text">Texting</string>
+    <string name="expert_seo">SEO</string>
+    <string name="expert_geo">GEO (KI-Suche)</string>
+    <string name="expert_tech">Indexierung und Technik</string>
+    <string name="expert_a11y">Barrierefreiheit</string>
+
+    <string name="result_title">Ergebnis</string>
+    <string name="result_not_found">Diese Analyse wurde nicht gefunden.</string>
+    <string name="tab_overview">Übersicht</string>
+    <string name="tab_heatmap">Heatmap</string>
+    <string name="tab_experts">Experten</string>
+    <string name="tab_personas">Testnutzer</string>
+    <string name="tab_tech">Technik</string>
+
+    <string name="overview_total">Gesamtscore</string>
+    <string name="overview_categories">Teilscores</string>
+    <string name="overview_top_actions">Top 5 Maßnahmen</string>
+    <string name="overview_no_actions">Keine Maßnahmen vorhanden.</string>
+    <string name="overview_summary">Fazit des Moderators</string>
+    <string name="overview_conflicts">Widersprüche im Rat</string>
+    <string name="overview_resolution">Auflösung: %1$s</string>
+    <string name="overview_impact_effort">Wirkung %1$d von 5, Aufwand %2$d von 5</string>
+    <string name="overview_cost">Verbrauch: %1$s Eingabe-Tokens, %2$s Ausgabe-Tokens, ca. %3$s US-Dollar bei %4$d Aufrufen (%5$s)</string>
+    <string name="overview_failed_experts">Ohne Ergebnis: %1$s</string>
+    <string name="overview_truncated">Die Seite ist länger als der erfasste Bereich. Bewertet wurde nur der obere Teil.</string>
+
+    <string name="heatmap_attention">Aufmerksamkeit</string>
+    <string name="heatmap_change">Änderungsbedarf</string>
+    <string name="heatmap_disclaimer">KI-Schätzung. Das ist keine Eye-Tracking-Messung mit echten Personen.</string>
+    <string name="heatmap_tap_hint">Bereich antippen, um die Begründung zu sehen.</string>
+    <string name="heatmap_no_area">An dieser Stelle liegt keine Markierung.</string>
+    <string name="heatmap_no_screenshot">Der Screenshot ist nicht mehr vorhanden.</string>
+    <string name="heatmap_screenshot_description">Screenshot der analysierten Seite mit Heatmap</string>
+    <string name="heatmap_intensity">Intensität %1$d %%</string>
+
+    <string name="experts_empty">Keine Expertenvoten vorhanden.</string>
+    <string name="finding_evidence">Beleg: %1$s</string>
+    <string name="finding_fix">Änderung: %1$s</string>
+
+    <string name="personas_empty">Keine Persona-Ergebnisse vorhanden.</string>
+    <string name="personas_success_rate">Erfolgsquote: %1$d %%</string>
+    <string name="personas_counts">Ja: %1$d, teilweise: %2$d, nein: %3$d</string>
+    <string name="personas_exit_reasons">Häufigste Ausstiegsgründe</string>
+    <string name="personas_areas">Am häufigsten erwähnte Bereiche</string>
+    <string name="personas_count_item">%1$s (%2$d)</string>
+    <string name="persona_meta">%1$d Jahre, %2$s</string>
+    <string name="persona_success">Aufgabenerfolg: %1$s</string>
+    <string name="persona_q_first">Erste 5 Sekunden</string>
+    <string name="persona_q_understanding">Worum geht es?</string>
+    <string name="persona_q_next">Nächster Schritt</string>
+    <string name="persona_q_exit">Ausstieg</string>
+    <string name="persona_q_missing">Was fehlt?</string>
+    <string name="persona_q_confusing">Was verwirrt?</string>
+
+    <string name="tech_empty">Keine Technik-Prüfungen vorhanden.</string>
+    <string name="tech_status_ok">OK</string>
+    <string name="tech_status_warn">Warnung</string>
+    <string name="tech_status_error">Fehler</string>
+    <string name="tech_recommendation">Empfehlung: %1$s</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_api_key">Anthropic API-Key</string>
+    <string name="settings_api_key_hint">Der Key wird verschlüsselt auf dem Gerät gespeichert und nur an api.anthropic.com gesendet.</string>
+    <string name="settings_model">Modell</string>
+    <string name="settings_personas">Anzahl Personas: %1$d</string>
+    <string name="settings_language">Sprache der Ergebnisse</string>
+
+    <string name="report_title">SiteCouncil-Bericht</string>
+    <string name="report_date">Datum</string>
+    <string name="report_audience">Zielgruppe</string>
+    <string name="report_goal">Seitenziel</string>
+    <string name="report_heatmap_note">Heatmap und Persona-Ergebnisse sind KI-Schätzungen, keine Messungen mit echten Personen.</string>
+    <string name="report_share_title">Bericht teilen</string>
+    <string name="report_success_rate">Erfolgsquote</string>
+</resources>

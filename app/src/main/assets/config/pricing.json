@@ -1,0 +1,6 @@
+{
+  "default": { "input": 2.0, "output": 10.0 },
+  "models": {
+    "claude-sonnet-5-5": { "input": 2.0, "output": 10.0 }
+  }
+}

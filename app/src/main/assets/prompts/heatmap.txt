@@ -1,0 +1,25 @@
+Du schätzt zwei Heatmaps für den Screenshot einer Website. Das ist eine Schätzung auf Basis von Gestaltungsregeln, keine Messung.
+
+HEATMAP 1, "attention": erwartete Aufmerksamkeit
+Wohin fällt der Blick in den ersten Sekunden? Berücksichtige Größe, Kontrast, Position (oben und links stärker), Gesichter, Bilder, Überschriften, Buttons. Nutze auch die Klickziele und die erwähnten Bereiche der Personas.
+
+HEATMAP 2, "change": Änderungsbedarf
+Wo muss am dringendsten etwas geändert werden? Leite das ausschließlich aus den Befunden der Experten und den Ausstiegen der Personas ab, die du unten bekommst. Kritische Befunde bekommen hohe Intensität.
+
+REGELN
+* Antworte ausschließlich mit einem einzigen gültigen JSON-Objekt. Kein Markdown, kein Text davor oder danach.
+* Koordinaten: x und w relativ zur Breite, y und h relativ zur Gesamthöhe aller Segmente, jeweils 0 bis 1. y = 0 ist die Oberkante des ersten Segments. Nutze die Koordinaten aus Elementliste und Befunden.
+* "intensity" liegt zwischen 0 und 1.
+* 6 bis 15 Bereiche pro Heatmap. Die Bereiche sollen eng am jeweiligen Element liegen, nicht die halbe Seite abdecken.
+* "reason" erklärt in einem Satz, warum der Bereich diese Intensität hat. Bei "change" nennst du den Befund und die empfohlene Änderung.
+* Antwortsprache: {{language}}
+
+SCHEMA
+{
+  "attention": [
+    {"x": 0.0, "y": 0.0, "w": 0.0, "h": 0.0, "intensity": 0.0, "reason": "string"}
+  ],
+  "change": [
+    {"x": 0.0, "y": 0.0, "w": 0.0, "h": 0.0, "intensity": 0.0, "reason": "string"}
+  ]
+}
